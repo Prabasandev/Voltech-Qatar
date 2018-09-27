@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include voltech_qatar *.css
+recursive-include voltech_qatar *.csv
+recursive-include voltech_qatar *.html
+recursive-include voltech_qatar *.ico
+recursive-include voltech_qatar *.js
+recursive-include voltech_qatar *.json
+recursive-include voltech_qatar *.md
+recursive-include voltech_qatar *.png
+recursive-include voltech_qatar *.py
+recursive-include voltech_qatar *.svg
+recursive-include voltech_qatar *.txt
+recursive-exclude voltech_qatar *.pyc
